@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+main {
+    width: 80vw;
+    margin: 20px auto;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+a {
+    width: 20%;
+    text-decoration: none;
+    color: salmon;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    margin: 10px;
+}
+
+li {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 250ms all;
+}
+
+
+li:hover {
+    transform: scale(.9);
+}
