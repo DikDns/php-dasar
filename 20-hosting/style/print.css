@@ -1,0 +1,5 @@
+@media print {
+    .navbar, #menu, #form-search, #menu-top {
+        display: none;
+    }
+}
